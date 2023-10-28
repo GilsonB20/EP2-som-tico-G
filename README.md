@@ -11,10 +11,10 @@ pip install parallel-fastq-dump
 ```bash
 echo "Aexyo" | vdb-config -i
 ```
-``bash
+```bash
 time parallel-fastq-dump --sra-id SRR8856724 \
 --threads 4\
 --outdir./ \
 --split-files \
 --gzip
-``
+```
