@@ -4,3 +4,10 @@
   ```bash
   brew install sratoolkit
   ```
+Instalando parallel-fastq-dump
+```bash
+pip install parallel-fastq-dump
+```
+```bash
+echo "Aexyo" | vdb-config -i
+```
