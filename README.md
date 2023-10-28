@@ -30,8 +30,15 @@ Realizar download do cromossomo 9 UCSC hg19:https://hgdownload.soe.ucsc.edu/gold
 wget -c https://hgdownload.soe.ucsc.edu/goldenPath/hg19/chromosomes/chr9.fa.gz
 ```
 
-BWA Index para o cromossomo 9
+Descompactando
 ```bash
 gunzip chr9.fa.gz
 ```
+Criando index para o chr9
 ```bash
+bwa index chr9.fa
+```
+intalando samtools
+````bash
+brew install samtools 
+````
