@@ -12,6 +12,8 @@ pip install parallel-fastq-dump
 echo "Aexyo" | vdb-config -i
 ```
 ```bash
+Baixando os fastq
+
 time parallel-fastq-dump --sra-id SRR8856724 \
 --threads 10\
 --outdir./ \
