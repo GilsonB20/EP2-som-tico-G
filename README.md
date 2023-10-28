@@ -13,7 +13,7 @@ echo "Aexyo" | vdb-config -i
 ```
 ```bash
 time parallel-fastq-dump --sra-id SRR8856724 \
---threads 4\
+--threads 10\
 --outdir./ \
 --split-files \
 --gzip
