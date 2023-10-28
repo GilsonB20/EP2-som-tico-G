@@ -1,2 +1,2 @@
-# EP2-som-tico-G
+# EP2-somatico-G
 Trabalho EP2 Somático
